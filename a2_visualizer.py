@@ -1,34 +1,10 @@
-"""CSC110 Fall 2022 Assignment 2, Part 3: Wordle!
-
-Module Description
-==================
-This Python file contains some code for defining various constants related to Wordle.
-
-You should not modify this file (we will be using our own version for testing purposes).
-You do *not* need to understand how any of this code works for Assignment 2.
-However, you should be able to read the function headers and docstrings of the functions
-in the section labelled "Main visualization functions", as you will be using them in
-Part 3 of the assignment.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu, Tom Fairgrieve, and Angela Zavaleta Bernuy.
-"""
 import pygame
 from python_ta.contracts import check_contracts
 from a2_wordle_helpers import CORRECT, INCORRECT, WRONG_POSITION
 
 
 ###############################################################################
-# Main visualization functions (this is the only section you need to read to
-# complete this assignment)
+# Main visualization functions 
 ###############################################################################
 @check_contracts
 def draw_wordle(answer: str, guesses: list[str], statuses: list[list[str]]) -> None:
