@@ -1,23 +1,3 @@
-"""CSC110 Fall 2022 Assignment 2, Part 3: Wordle!
-
-Module Description
-==================
-This Python file contains some code for defining various constants related to Wordle
-and a helper function for Part 3(c).
-
-You should not modify this file (we will be using our own version for testing purposes).
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu and Tom Fairgrieve.
-"""
 import itertools
 
 from python_ta.contracts import check_contracts
