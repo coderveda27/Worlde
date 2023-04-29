@@ -1,21 +1,3 @@
-"""CSC110 Fall 2022 Assignment 2, Part 3: Wordle!
-
-Module Description
-==================
-This Python file contains the starter code for Part 3 of this assignment.
-For more information, please see the assignment handout.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu, Tom Fairgrieve, and Angela Zavaleta Bernuy.
-"""
 from python_ta.contracts import check_contracts
 
 from a2_wordle_helpers import ALL_STATUSES, INCORRECT, CORRECT, WRONG_POSITION, cartesian_product_general
